@@ -60,8 +60,7 @@ demand_price = 10 * (1 + 0.5 * norm_demand)
 
 ```
 ├── dataset.csv                # Input dataset (73 days × 14 lots × time slots)
-├── dynamic_pricing.ipynb      # Main notebook with models and plot
-├── final_prices.csv           # Output CSV with pricing results (optional)
+├── Notebook.ipynb      # Main notebook with models and plot
 ├── README.md                  # Project overview and instructions
 ```
 
@@ -82,9 +81,8 @@ Which plots both Baseline and Demand-Based prices over time using `matplotlib`.
 ## ⚙️ How to Run
 
 1. Clone this repo or open it in [Google Colab](https://colab.research.google.com/)
-2. Upload `dataset.csv`
-3. Run all cells in `dynamic_pricing.ipynb`
-4. View price trends by lot ID
+2. Run all cells in `Notebook.ipynb`
+3. View price trends by lot ID
 
 ---
 
